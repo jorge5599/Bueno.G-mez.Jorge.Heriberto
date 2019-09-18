@@ -1,0 +1,175 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Jorge Heriberto Bueno Gomez 
+4 B Ing. Mecatronica}
+\title{$$Universidad Politecnica   $$
+$$de la$$
+$$Zona Metropolitana de Guadalajara$$
+(Convertidores CD-CD(CC-CC) y convertidores CC-CA)
+}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Estructuras Basicas Sin Aislamiento} 
+\subsection{Convertidor Reductor Buck}
+
+Convertidor reductor o buck destaca por su simplicidad y su elevado rendimiento. Es el mas fundamental de los convertidores CC-CC. Permite un rizado bajo de la tension de salida, y es facil de estabilizar cuando trabaja en lazo cerrado, y permite una facil proteccion frente a cortocircuitos y de limite de corriente.
+
+$$\includegraphics[scale=.5]{../../Descargas/buck-converter-step-down-chopper.png} $$
+
+\subsection{Estructurs de 2 y 4 cuadrantes sin aislamiento}
+
+\subsection{Reversible de corriente Push-pull}
+El convertidor push-pull trabaja en el primer y tercer cuadrante. Es decir, el transformador se magnetiza y se desmagnetiza en un periodo de trabajo. Esta compuesto por una especie de inversor que convierte la tension continua en alterna utilizando dos transistores y un rectificador de onda completa (transformador con toma intermedia y dos diodos) y un filtro paso bajo.
+
+$$\includegraphics[scale=.5]{../../Descargas/conversor-push-pull.png} $$
+
+\subsection{Reversible en tension Half-Bridge}
+Es un circuito electronico que generalmente se usa para permitir a un motor electrico DC girar en ambos sentidos, avance y retroceso. Son ampliamente usados en robotica y como puente completo.
+ 
+$$\includegraphics[scale=.25]{../../Descargas/H-bridge.png} $$
+
+\subsection{Puente completo full-bridge}
+
+El puente rectificador de onda completa es un circuito electronico utilizado en la conversion de una corriente alterna en continua. Este puente rectificador esta formado por 4 diodos.
+Si el voltaje es positivo y mayor que el voltaje en directa, el diodo conduce. Recordemos que el voltaje en directa de un diodo de silicio esta sobre los 0.7V. Si el diodo esta polarizado en inversa no conduce. Gracias a esto podemos generar dos caminos de nuestro puente rectificador de onda completa. Uno para la primera mitad del periodo, que es positiva y otro para la segunda, que es negativa.
+
+$$\includegraphics[scale=.5]{../../Descargas/rectificador-de-onda-completa-1.jpeg} $$
+
+\subsection{Directo forward}
+El funcionamiento de forward se obtiene apartir del troceador reductor (buck) de un cuadrante.
+El funcionamiento hacia adelante y hacia atras del motor se puede obtener intercambiando cualquiera de sus dos terminales.
+En el circuito, tanto el contactor de avance como el de reversa se enclavaron tal forma que solo un contactor debe estar cerrado mientras el otro esta abierto.
+
+$$\includegraphics[scale=.5]{../../Descargas/forward.jpeg} $$
+
+\section{Reductor}
+
+\subsection{Reductor-Elevador}
+Es un tipo de convertidor DC-DC quentiene una magnitud de voltaje de salida que puede ser mayor o menor que la magnitud de voltaje de salida que puede ser mayor o menor que la magnitud de voltaje de entrada.
+
+$$\includegraphics[scale=.7]{../../Descargas/convertidor.png} $$
+
+\subsection{Transformador flyback}
+Fly-back rectificador que convierte los pulsos de alto voltaje en corriente continua que luego el condensador formado en el TRC, filtra o plana. El alto voltaje puede desarrollarse directamente en un solo bobinado con muchas espiras de alambre, o un bobinado que genera un voltaje mas bajo y un multiploicador de voltaje de diodo condensador.
+
+$$\includegraphics[scale=.2]{../../Descargas/flyback1.png} $$
+
+\subsection{Transformador flyback de dos interruptores}
+Cuando el interruptor esta activado la bobina primaria esta conectada directamente a la fuente de alimentacion. Esto provoca un incremento del flujo magnetico en el nucleo.
+La tension en el secundario es negativa, por lo que el diodo esta en inversa.
+
+$$\includegraphics[scale=.15]{../../Descargas/flyback.jpeg}$$ 
+
+\subsection{Convertidor de cuk}
+La configuracion basica del convertidor de cuk se deriva de la operacion en serie de las configuraciones basicas tipo boost y buck. 
+Este convertidor, como todo convertidor CC-CC presenta los dos modos tipicos de funcionamiento, conocidos como modos de funcionamiento ininterrumpido y discontinuo.
+Es un tipo de convertidor DC-DC en el cual la magnitud de voltaje en su salida puede ser inferior o superior a su voltaje de entrada.
+
+$$\includegraphics[scale=.7]{../../Descargas/cuk.png} $$
+\section{Elevador Boost}
+Es un convertidor DC a DC que obtiene a su salida un tension continua mayor que a su entrada.
+Es un tipo de fuente de alimentacion conmutada que contiene al menos dos interruptores semiconductores, y al menos un elemento para almacenar energia.
+
+$$\includegraphics[scale=.6]{../../Descargas/bosst.jpeg}$$
+
+\newpage
+\title{Convertidores CC-CA}
+\section{Segun alimentacion de tension}
+Son convertidores estaticos de energia que convierten la corriente continua CC en corriente alterna CA, con la posibilidad de alimentar una carga en alterna, regulando la tension, la frecuencia o bien ambas. Mas exactamente, los inversores transfieren potencia desde una fuente de continua a una carga de alterna.
+\section{Segun alimentacion de corriente}
+\section{Segun numero de fases}
+\subsection{Monofasico}
+\subsubsection{Semi puente}
+La tension maxima que deben de soportar los interruptores de potencia: UB, mas las sobretensiones que originen los circuitos practicos.
+La tension maxima en la carga UB/2, por tanto para igual potencia corrientes mas elevadas que en el puente completo.
+
+$$\includegraphics[scale=.5]{../../Descargas/medio.jpeg} $$
+
+\subsubsection{Puente completo}
+El inversor en puente completo esta formado por 4 interruptores de potencia totalmente controlados, tipicamente transistores MOSFET o IBGT.
+
+$$\includegraphics[scale=.3]{../../Descargas/completo.jpeg}$$
+\subsubsection{Push-pull}
+Tension maxima que deben soportar los interruptores de potencia: UB, mas las sobretensiones que originen los circuitos practicos, que en este caso seran mayores debido a la inductancia de dispersion del transformador.
+Solo utiliza dos interruptores de potencia y ambos estan referidos a masa y por tanto su gobierno es sencillo.
+
+$$\includegraphics[scale=.35]{../../Descargas/push-pull.png} $$
+\section{Trifasico}
+\subsection{En estrella}
+Si los devanados de fase de un generador o consumidor se conectan de modo que los finales de los devanados se unan en un punto comun, y los comienzos de estos sean conectados a los conductores de la linea, tal coneccion se llama conexion en estrella.
+
+$$\includegraphics[scale=.5]{../../Descargas/Estrella.png} $$
+\subsection{En delta}
+Los generadores o consumidores de corriente trifasica pueden conectarse no solo en estrella si no tambien en triangulo o delta. La conexion en triangulo se ejecuta de modo que el extremo final de la fase A este unido al comienzo de la fase B este unido al comienzo de la fase C y el extremo final de la fase C este unido al comienzo de la fase A. A los lugares de conexion de las fases se conectan conductores de la linea.
+
+$$\includegraphics[scale=.3]{../../Descargas/delta.jpeg}$$ 
+
+\section{Segun forma de onda de salida}
+\subsection{Cuadrada}
+La tecnica de modulacion o el esquema de conmutacion mas sencillo del inversor en puente completo es el que genera una tension de salida en forma de onda cuadrada.
+La conmutacion periodica de la tension de la carga entre + VCC y -VCC genera en la carga una tension con forma de onda cuadrada.
+
+$$\includegraphics[scale=.5]{../../Descargas/Grafico-de-la-onda-cuadrada.png} $$
+\subsection{Semi cuadrada}
+Para obtener este tipo de onda cuando la tension es positiva en la carga se mantiene S1 Y S2 conduciendo(S3 Y S4 abiertos). La tension negativa se obtiene de forma complementaria (S3 Y S4 cerrados y S1 Y S2 abiertos.
+La tension nula se obtienen cerrando simultaneamente los interruptores. Otra forma de obtener tension nula a la salida es manteniendo todos los interruptores abiertos durante el intervalo de tiempo deseado.
+
+$$\includegraphics[scale=.4]{../../Descargas/semi.jpeg} $$
+\subsection{Modulados}
+La idea principal es comparar una tension de referencia senoidal de baja frecuencia con una senal triangular simetrica de alta frecuencia cuya frecuencia determine la frecuencia de conmutacion.
+
+$$\includegraphics[scale=.5]{../../Descargas/nosemi.jpeg} $$
+
+\newpage
+\title{Convertidores CA-CA}
+\section{Variadores de CA}
+Es un sistema para el control de la velocidad rotacional de un motor de corriente alterna (AC) por medio del control de la frecuencia de alimentacion suministrada al motor. La tension o voltaje se hace variar a la vez que la frecuencia, a veces son llamados drivers VVVF(variador de voltaje variador de frecuencia).
+
+$$\includegraphics[scale=1]{../../Descargas/variador.jpeg} $$
+\section{Ciclo controladores}
+Considerese un circuito alimentado y la carga se conecta un interruptor implementado como un tiristor, el flujo de potencia transmitido a la carga puede controlarse variando el valor eficaz de la tension aplicada a la misma. Un circuito de potencia de tales caracteristicas recibe el nombre de convertidor de tension alterna.
+
+$$\includegraphics[scale=3.5]{../../Descargas/circuito.jpg} $$
+\section{Convertidores Matriciales}
+La conversion directa CA-CA por medio de conversiones matriciales permite modular la tension, frecuencia y fase del sistema electrico trifasico a objeto de controlar el comportamiento de la carga, y permitir la regeneracion de energia de la carga a la alimentacion principal.
+
+$$\includegraphics[scale=.5]{../../Descargas/Sistema-con-convertidor-matricial.png} $$
+
+\newpage
+\title{Convertidores CA-CD}
+\section{No controlados}
+Es un circuito empleado para eliminar la parte negativa o positiva de una senal de corriente alterna de lleno conducen cuando se polarizan inversamente. Ademas su voltaje es positivo.
+
+$$\includegraphics[scale=.5]{../../Descargas/no con.png} $$
+
+\section{Controlados}
+En los circuitos rectificadores se pueden sustituir total o parcial a los diodos por tiristores, obteniendo un sistema de rectificacion controlado (formados unicamente por tiristores) o semicontrolados (formados por tiristores y diodos).
+La puerta es la encargada de controlar el paso de corriente entre el anodo y el catodo. Funciona basicamente como un diodo rectificador controlado, permiendo circular la corriente en un solo sentido.
+
+$$\includegraphics[scale=1]{../../Descargas/no controlado.png} $$
+
+\newpage
+\title{Bibliografia}
+
+
+Autor:Eduard Ballester, Robert Pique.\
+
+Libro:Electronica de potencia.\
+Editorial:MARCOMBO.\
+
+Ano:2011\
+
+Edicion:Primera\
+
+ISBN: 978-84-267-1669-9\
+\end{document}

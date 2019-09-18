@@ -1,0 +1,484 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.14)  17 SEP 2019 22:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Tarea.tex
+(./Tarea.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks23
+) (./Tarea.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `Tarea.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen123
+\scratchbox=\box28
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen124
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<../../Descargas/buck-converter-step-down-chopper.png, id=9, 658.46pt x 262.982
+5pt>
+File: ../../Descargas/buck-converter-step-down-chopper.png Graphic file (type p
+ng)
+<use ../../Descargas/buck-converter-step-down-chopper.png>
+Package pdftex.def Info: ../../Descargas/buck-converter-step-down-chopper.png  
+used on input line 27.
+(pdftex.def)             Requested size: 329.2292pt x 131.49092pt.
+<../../Descargas/conversor-push-pull.png, id=10, 649.16211pt x 285.27632pt>
+File: ../../Descargas/conversor-push-pull.png Graphic file (type png)
+<use ../../Descargas/conversor-push-pull.png>
+Package pdftex.def Info: ../../Descargas/conversor-push-pull.png  used on input
+ line 34.
+(pdftex.def)             Requested size: 324.58026pt x 142.6378pt.
+<../../Descargas/H-bridge.png, id=11, 851.18pt x 714.67pt>
+File: ../../Descargas/H-bridge.png Graphic file (type png)
+<use ../../Descargas/H-bridge.png>
+Package pdftex.def Info: ../../Descargas/H-bridge.png  used on input line 39.
+(pdftex.def)             Requested size: 212.79446pt x 178.66705pt.
+ [1 <../../Descargas/buck-converter-step-down-chopper.png> <../../Descargas/con
+versor-push-pull.png>]
+<../../Descargas/rectificador-de-onda-completa-1.jpeg, id=17, 571.13374pt x 455
+.7025pt>
+File: ../../Descargas/rectificador-de-onda-completa-1.jpeg Graphic file (type j
+pg)
+<use ../../Descargas/rectificador-de-onda-completa-1.jpeg>
+Package pdftex.def Info: ../../Descargas/rectificador-de-onda-completa-1.jpeg  
+used on input line 46.
+(pdftex.def)             Requested size: 285.56618pt x 227.85068pt.
+<../../Descargas/forward.jpeg, id=18, 929.4725pt x 445.665pt>
+File: ../../Descargas/forward.jpeg Graphic file (type jpg)
+<use ../../Descargas/forward.jpeg>
+Package pdftex.def Info: ../../Descargas/forward.jpeg  used on input line 53.
+(pdftex.def)             Requested size: 464.73512pt x 222.83195pt.
+ [2 <../../Descargas/H-bridge.png> <../../Descargas/rectificador-de-onda-comple
+ta-1.jpeg>]
+<../../Descargas/convertidor.png, id=23, 200.75pt x 200.75pt>
+File: ../../Descargas/convertidor.png Graphic file (type png)
+<use ../../Descargas/convertidor.png>
+Package pdftex.def Info: ../../Descargas/convertidor.png  used on input line 60
+.
+(pdftex.def)             Requested size: 140.52403pt x 140.52403pt.
+<../../Descargas/flyback1.png, id=25, 1204.5pt x 715.67375pt>
+File: ../../Descargas/flyback1.png Graphic file (type png)
+<use ../../Descargas/flyback1.png>
+Package pdftex.def Info: ../../Descargas/flyback1.png  used on input line 65.
+(pdftex.def)             Requested size: 240.89574pt x 143.1322pt.
+ [3 <../../Descargas/forward.jpeg> <../../Descargas/convertidor.png>]
+<../../Descargas/flyback.jpeg, id=30, 1084.05pt x 1170.3725pt>
+File: ../../Descargas/flyback.jpeg Graphic file (type jpg)
+<use ../../Descargas/flyback.jpeg>
+Package pdftex.def Info: ../../Descargas/flyback.jpeg  used on input line 71.
+(pdftex.def)             Requested size: 162.60048pt x 175.5483pt.
+<../../Descargas/cuk.png, id=31, 351.3125pt x 141.52875pt>
+File: ../../Descargas/cuk.png Graphic file (type png)
+<use ../../Descargas/cuk.png>
+Package pdftex.def Info: ../../Descargas/cuk.png  used on input line 78.
+(pdftex.def)             Requested size: 245.91707pt x 99.06944pt.
+ [4 <../../Descargas/flyback1.png> <../../Descargas/flyback.jpeg> <../../Descar
+gas/cuk.png>]
+<../../Descargas/bosst.jpeg, id=37, 542.025pt x 198.7425pt>
+File: ../../Descargas/bosst.jpeg Graphic file (type jpg)
+<use ../../Descargas/bosst.jpeg>
+Package pdftex.def Info: ../../Descargas/bosst.jpeg  used on input line 83.
+(pdftex.def)             Requested size: 325.2175pt x 119.24641pt.
+ [5 <../../Descargas/bosst.jpeg>]
+<../../Descargas/medio.jpeg, id=41, 734.745pt x 379.4175pt>
+File: ../../Descargas/medio.jpeg Graphic file (type jpg)
+<use ../../Descargas/medio.jpeg>
+Package pdftex.def Info: ../../Descargas/medio.jpeg  used on input line 96.
+(pdftex.def)             Requested size: 367.3716pt x 189.70828pt.
+<../../Descargas/completo.jpeg, id=42, 1084.05pt x 704.6325pt>
+File: ../../Descargas/completo.jpeg Graphic file (type jpg)
+<use ../../Descargas/completo.jpeg>
+Package pdftex.def Info: ../../Descargas/completo.jpeg  used on input line 101.
+
+(pdftex.def)             Requested size: 325.21751pt x 211.39139pt.
+ [6 <../../Descargas/medio.jpeg>]
+<../../Descargas/push-pull.png, id=47, 1027.84pt x 451.6875pt>
+File: ../../Descargas/push-pull.png Graphic file (type png)
+<use ../../Descargas/push-pull.png>
+Package pdftex.def Info: ../../Descargas/push-pull.png  used on input line 106.
+
+(pdftex.def)             Requested size: 359.74939pt x 158.09299pt.
+<../../Descargas/Estrella.png, id=48, 353.4003pt x 207.77625pt>
+File: ../../Descargas/Estrella.png Graphic file (type png)
+<use ../../Descargas/Estrella.png>
+Package pdftex.def Info: ../../Descargas/Estrella.png  used on input line 111.
+(pdftex.def)             Requested size: 176.6997pt x 103.88786pt.
+ [7 <../../Descargas/completo.jpeg> <../../Descargas/push-pull.png>]
+<../../Descargas/delta.jpeg, id=53, 1084.05pt x 648.4225pt>
+File: ../../Descargas/delta.jpeg Graphic file (type jpg)
+<use ../../Descargas/delta.jpeg>
+Package pdftex.def Info: ../../Descargas/delta.jpeg  used on input line 115.
+(pdftex.def)             Requested size: 325.21751pt x 194.52824pt.
+<../../Descargas/Grafico-de-la-onda-cuadrada.png, id=54, 853.1875pt x 303.1325p
+t>
+File: ../../Descargas/Grafico-de-la-onda-cuadrada.png Graphic file (type png)
+<use ../../Descargas/Grafico-de-la-onda-cuadrada.png>
+Package pdftex.def Info: ../../Descargas/Grafico-de-la-onda-cuadrada.png  used 
+on input line 122.
+(pdftex.def)             Requested size: 426.59271pt x 151.56587pt.
+ [8 <../../Descargas/Estrella.png> <../../Descargas/delta.jpeg>]
+<../../Descargas/semi.jpeg, id=59, 766.865pt x 469.755pt>
+File: ../../Descargas/semi.jpeg Graphic file (type jpg)
+<use ../../Descargas/semi.jpeg>
+Package pdftex.def Info: ../../Descargas/semi.jpeg  used on input line 127.
+(pdftex.def)             Requested size: 306.74057pt x 187.89867pt.
+<../../Descargas/nosemi.jpeg, id=60, 847.165pt x 525.965pt>
+File: ../../Descargas/nosemi.jpeg Graphic file (type jpg)
+<use ../../Descargas/nosemi.jpeg>
+Package pdftex.def Info: ../../Descargas/nosemi.jpeg  used on input line 131.
+(pdftex.def)             Requested size: 423.58145pt x 262.98184pt.
+ [9 <../../Descargas/Grafico-de-la-onda-cuadrada.png> <../../Descargas/semi.jpe
+g>] [10 <../../Descargas/nosemi.jpeg>]
+<../../Descargas/variador.jpeg, id=68, 240.9pt x 140.02313pt>
+File: ../../Descargas/variador.jpeg Graphic file (type jpg)
+<use ../../Descargas/variador.jpeg>
+Package pdftex.def Info: ../../Descargas/variador.jpeg  used on input line 138.
+
+(pdftex.def)             Requested size: 240.8994pt x 140.02278pt.
+<../../Descargas/circuito.jpg, id=69, 114.9093pt x 33.4851pt>
+File: ../../Descargas/circuito.jpg Graphic file (type jpg)
+<use ../../Descargas/circuito.jpg>
+Package pdftex.def Info: ../../Descargas/circuito.jpg  used on input line 142.
+(pdftex.def)             Requested size: 402.18153pt x 117.19756pt.
+<../../Descargas/Sistema-con-convertidor-matricial.png, id=70, 443.6575pt x 352
+.31625pt>
+File: ../../Descargas/Sistema-con-convertidor-matricial.png Graphic file (type 
+png)
+<use ../../Descargas/Sistema-con-convertidor-matricial.png>
+Package pdftex.def Info: ../../Descargas/Sistema-con-convertidor-matricial.png 
+ used on input line 146.
+(pdftex.def)             Requested size: 221.8282pt x 176.15768pt.
+ [11 <../../Descargas/variador.jpeg> <../../Descargas/circuito.jpg>] [12 <../..
+/Descargas/Sistema-con-convertidor-matricial.png (PNG copy)>]
+
+LaTeX Warning: File `../../Descargas/no con.png' not found on input line 153.
+
+<../../Descargas/no con.png, id=78, 722.7pt x 542.025pt>
+File: ../../Descargas/no con.png Graphic file (type png)
+<use ../../Descargas/no con.png>
+Package pdftex.def Info: ../../Descargas/no con.png  used on input line 153.
+(pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
+
+LaTeX Warning: File `../../Descargas/no controlado.png' not found on input line
+ 159.
+
+<../../Descargas/no controlado.png, id=79, 340.27126pt x 148.555pt>
+File: ../../Descargas/no controlado.png Graphic file (type png)
+<use ../../Descargas/no controlado.png>
+Package pdftex.def Info: ../../Descargas/no controlado.png  used on input line 
+159.
+(pdftex.def)             Requested size: 340.27042pt x 148.55463pt.
+[13 <../../Descargas/no con.png (PNG copy)> <../../Descargas/no controlado.png>
+] [14] (./Tarea.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+) ) 
+Here is how much of TeX's memory you used:
+ 3893 strings out of 492982
+ 54280 string characters out of 6134896
+ 124326 words of memory out of 5000000
+ 7375 multiletter control sequences out of 15000+600000
+ 13650 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,30p,434b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Tarea.pdf (15 pages, 637570 bytes).
+PDF statistics:
+ 102 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+
