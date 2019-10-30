@@ -1,0 +1,135 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{kpfonts}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Jorge Bueno}
+
+\begin{document}
+$$\includegraphics[scale=.666]{UPCDLZMDG5783-logo.png} $$\\
+
+$$Bueno  Gomez  Jorge  Heriberto$$\\
+$$Ing. Mecatronica$$\\
+$$18312259$$\\
+$$Sistemas de Interfaz$$\\
+$$29-10-19$$
+\newpage
+\section{El transistor de potencia}
+
+El funcionamiento y utilización de los transistores de potencia es idéntico al de los transistores normales, teniendo como características especiales las altas tensiones e intensidades que tienen que soportar y, por tanto, las altas potencias a disipar.
+Existen tres tipos de transistores de potencia:\\
+    • bipolar.\\
+    • unipolar o FET (Transistor de Efecto de Campo).\\
+    • IGBT.\\
+    $$\begin{tabular}{|c|c|c|}
+    \hline 
+    Parametros & Mos & Bipolar \\ 
+    \hline 
+    Impedancia & Alta(1010 ohmios) & Media(104 ohmios) \\ 
+    \hline 
+    Ganancia en corriente & Alta(107) & Media(10-100) \\ 
+    \hline 
+    Resitencia ON (Saturaciòn) & Media/Alta & Baja \\ 
+    \hline 
+    Resistencia OFF (Corte) & Alta & Alta \\ 
+    \hline 
+    Voltaje aplicable & Alto (1000 V) & Alto (1200 V) \\ 
+    \hline 
+    Màxima temperatura de operaciòn  & Alta (200ºC) & Media (150ºC) \\ 
+    \hline 
+    Frecuencia de trabajo & Alta (100-500 Khz) & Baja (10-80 Khz) \\ 
+    \hline 
+    Coste & Alto & Medio \\ 
+    \hline 
+    \end{tabular} $$ \\
+El IGBT ofrece a los usuarios las ventajas de entrada MOS, más la capacidad de carga en corriente de los transistores bipolares:\\
+    • Trabaja con tensión.\\
+    • Tiempos de conmutación bajos.\\
+    • Disipación mucho mayor (como los bipolares).\\
+Nos interesa que el transistor se parezca, lo más posible, a un elemento ideal:\\
+    • Pequeñas fugas.\\
+    • Alta potencia.\\
+    • Bajos tiempos de respuesta (ton , toff), para conseguir una alta frecuencia de funcionamiento.\\
+    • Alta concentración de intensidad por unidad de superficie del semiconductor.\\
+    • Que el efecto avalancha se produzca a un valor elevado ( VCE máxima elevada).\\
+    • Que no se produzcan puntos calientes (grandes di/dt ).\\
+Una limitación importante de todos los dispositivos de potencia y concretamente de los transistores bipolares, es que el paso de bloqueo a conducción y viceversa no se hace instantáneamente, sino que siempre hay un retardo (ton , toff). Las causas fundamentales de estos retardos son las capacidades asociadas a las uniones colector - base y base - emisor y los tiempos de difusión y recombinación de los portadores.\\
+\\
+\subsection{Principios básicos de funcionamiento}
+
+La diferencia entre un transistor bipolar y un transistor unipolar o FET es el modo de actuación sobre el terminal de control. En el transistor bipolar hay que inyectar una corriente de base para regular la corriente de colector, mientras que en el FET el control se hace mediante la aplicación de una tensión entre puerta y fuente. Esta diferencia vienen determinada por la estructura interna de ambos dispositivos, que son substancialmente distintas.\\
+Es una característica común, sin embargo, el hecho de que la potencia que consume el terminal de control (base o puerta) es siempre más pequeña que la potencia manejada en los otros dos terminales.\\
+En resumen, destacamos tres cosas fundamentales:\\
+    • En un transistor bipolar I{\tiny B} controla la magnitud de I{\tiny C}.\\
+    • En un FET, la tensión V{\tiny GS }controla la corriente I{\tiny D}.\\
+    • En ambos casos, con una potencia pequeña puede controlarse otra bastante mayor.\\
+\subsection{Tiempos de conmutación}
+Cuando el transistor está en saturación o en corte las pérdidas son despreciables. Pero si tenemos en cuenta los efectos de retardo de conmutación, al cambiar de un estado a otro se produce un pico de potencia disipada, ya que en esos instantes el producto I{\tiny C } x V{\tiny CE} va a tener un valor apreciable, por lo que la potencia media de pérdidas en el transistor va a ser mayor. Estas pérdidas aumentan con la frecuencia de trabajo, debido a que al aumentar ésta, también lo hace el número de veces que se produce el paso de un estado a otro.\\
+Podremos distinguir entre tiempo de excitación o encendido (ton) y tiempo de apagado (toff). A su vez, cada uno de estos tiempos se puede dividir en otros dos.\\
+Tiempo de retardo (Delay Time, td): Es el tiempo que transcurre desde el instante en que se aplica la señal de entrada en el dispositivo conmutador, hasta que la señal de salida alcanza el 10 porciento de su valor final.\\
+Tiempo de subida (Rise time, tr): Tiempo que emplea la señal de salida en evolucionar entre el 10 porciento y el 90 porciento de su valor final.\\
+Tiempo de almacenamiento (Storage time, ts): Tiempo que transcurre desde que se quita la excitación de entrada y el instante en que la señal de salida baja al 90 porciento de su valor final.\\
+Tiempo de caída (Fall time, tf): Tiempo que emplea la señal de salida en evolucionar entre el 90 porciento y el 10 porciento de su valor final.\\
+Por tanto, se pueden definir las siguientes relaciones:\\
+$$t {\tiny on}=t {\tiny d}+t {\tiny r}$$
+$$t {\tiny off}=t {\tiny j}+t {\tiny f}$$\\
+Es de hacer notar el hecho de que el tiempo de apagado (toff) será siempre mayor que el tiempo de encendido (ton).\\
+Los tiempos de encendido (ton) y apagado (toff) limitan la frecuencia máxima a la cual puede conmutar el transistor:\\
+$$F{\tiny max}= \dfrac{1}{ton+toff}$$
+
+\section{Otros parámetros importantes}
+Corriente media: es el valor medio de la corriente que puede circular por un terminal (ej. I{\tiny CAV}, corriente media por el colector).\\
+Corriente máxima: es la máxima corriente admisible de colector (I{\tiny CM}) o de drenador (I{\tiny DM}). Con este valor se determina la máxima disipación de potencia del dispositivo.\\
+V{\tiny CBO}: tensión entre los terminales colector y base cuando el emisor está en circuito abierto.\\
+V{\tiny EBO}: tensión entre los terminales emisor y base con el colector en circuito abierto.\\
+Tensión máxima: es la máxima tensión aplicable entre dos terminales del dispositivo (colector y emisor con la base abierta en los bipolares, drenador y fuente en los FET).\\
+Estado de saturación: queda determinado por una caída de tensión prácticamente constante. V{\tiny CEsat} entre colector y emisor en el bipolar y resistencia de conducción R{\tiny DSon }en el FET. Este valor, junto con el de corriente máxima, determina la potencia máxima de disipación en saturación.\\
+Relación corriente de salida - control de entrada: h{\tiny FE }para el transistor bipolar (ganancia estática de corriente) y g{\tiny ds} para el FET (transconductancia en directa).\\
+\subsection{Modos de trabajo}
+Existen cuatro condiciones de polarización posibles. Dependiendo del sentido o signo de los voltajes de polarización en cada una de las uniones del transistor pueden ser :\\
+$$ $$
+\\
+    • \textbf{Región activa directa:} Corresponde a una polarización directa de la unión emisor - base y a una polarización inversa de la unión colector - base. Esta es la región de operación normal del transistor para amplificación.
+    \\
+    \textbf{• Región activa inversa:} Corresponde a una polarización inversa de la unión emisor - base y a una polarización directa de la unión colector - base. Esta región es usada raramente.
+ \\
+   \textbf{ • Región de corte:} Corresponde a una polarización inversa de ambas uniones. La operación en ésta región corresponde a aplicaciones de conmutación en el modo apagado, pues el transistor actúa como un interruptor abierto (IC 0).
+ \\
+    \textbf{• Región de saturación:} Corresponde a una polarización directa de ambas uniones. La operación en esta región corresponde a aplicaciones de conmutación en el modo encendido, pues el transistor actúa como un interruptor cerrado (VCE 0).\\
+\subsection{Cálculo de potencias disipadas en conmutación con carga resistiva}
+La gráfica superior muestra las señales idealizadas de los tiempos de conmutación (ton y toff) para el caso de una carga resistiva.\\
+Supongamos el momento origen en el comienzo del tiempo de subida (tr) de la corriente de colector. En estas condiciones (0 t tr) tendremos :\\
+$$Ic = I{\tiny Cmax}  *  (\dfrac{t}{t{\tiny r}})$$
+donde I{\tiny C} más vale :
+$$Icmax = \dfrac{Vcc}{R}$$
+También tenemos que la tensión colector - emisor viene dada como :
+$$V{\tiny CE} = V{\tiny cc} - R * i{\tiny c}$$
+Sustituyendo, tendremos que :
+$$ V{\tiny CE} = V{\tiny cc} - R * \dfrac{V{\tiny cc}}{R} * (\dfrac{t}{tr}) = V{\tiny cc} * (1-\dfrac{t}{tr})$$
+Nosotros asumiremos que la VCE en saturación es despreciable en comparación con Vcc.\\
+Así, la potencia instantánea por el transistor durante este intervalo viene dada por :\\
+$$p = V{\tiny CE} * i{\tiny c} = V{\tiny cc} * I{\tiny cmax} *(\dfrac{t}{tr}) * (1-\dfrac{t}{tr})$$\\
+La energía, Wr, disipada en el transistor durante el tiempo de subida está dada por la integral de la potencia durante el intervalo del tiempo de caída, con el resultado:\\
+$$Wr= (\dfrac{Vcc * Icmax}{4})*(\dfrac{2*tr}{3})$$\\
+De forma similar, la energía (Wf) disipada en el transistor durante el tiempo de caída, viene dado como:\\
+$$Wf=(\dfrac{V{\tiny cc}*Icmax}{4})*(\dfrac{2*tf}{3}) $$\\
+La potencia media resultante dependerá de la frecuencia con que se efectúe la conmutación:\\
+$$PAV = f * (Wr+Wf)$$\\
+Un último paso es considerar tr despreciable frente a tf, con lo que no cometeríamos un error apreciable si finalmente dejamos la potencia media, tras sustituir, como:\\
+$$Pc(VA) = \dfrac{Vcc * Icmax}{6}*tf*f$$\\
+\subsection{Cálculo de potencias disipadas en conmutación con carga inductiva}
+Arriba podemos ver la gráfica de la i{\tiny C}(t), V{\tiny CE}(t) y p(t) para carga inductiva. La energía perdida durante en ton viene dada por la ecuación:\\
+$$Wton=\dfrac{1}{2}*V*Ic(sat)*(t1+t2)$$\\
+Durante el tiempo de conducción (t5) la energía perdida es despreciable, puesto que VCE es de un valor ínfimo durante este tramo.\\
+Durante el toff, la energía de pérdidas en el transistor vendrá dada por la ecuación:\\
+$$Wtoff = \dfrac{1}{2}*V*Ic(sat)*(t3+t4)$$\\
+La potencia media de pérdidas durante la conmutación será por tanto:\\
+$$P{\scriptsize TOT(AV)}= \dfrac{Wton+Wtoff}{T}=f*Wton+Wtoff) $$\\
+Si lo que queremos es la potencia media total disipada por el transistor en todo el periodo debemos multiplicar la frecuencia con la sumatoria de pérdidas a lo largo del periodo (conmutación + conducción). La energía de pérdidas en conducción viene como:\\
+$$Wcond=Vc(sat)*Ic(sat)*t5$$
+
+\end{document}
